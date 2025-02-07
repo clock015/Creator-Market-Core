@@ -5,6 +5,8 @@ This smart contract protocol builds a decentralized company model that allows fo
 
 ![Creator-Market](./public/contract-logic.png)
 
+![Expense contract](./public/vesting4626.png)
+
 ## Smart Contract Usage:
 
 ### 1. clone folder "contracts" to Remix
