@@ -31,4 +31,13 @@ call Vesting4626.updateSalary, creator_ = test wallet (0xAb8483F64d9C6d1EcF9b849
 
 call Vesting4626.finishUpdate, creator_ = test wallet (0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2)
 
+### 6. call view function
+
+Vesting4626.totalAssets:assets - pending salary
+
+Vesting4626.totalPendingSalary:current pending salary across all participants
+
+Vesting4626.totalInvestment:total expenses
+
+Vesting4626.investmentOf:expenses for an account, When distributing the income, calculate the share for each account based on the ratio of investmentOf(account) to totalInvestment.
 

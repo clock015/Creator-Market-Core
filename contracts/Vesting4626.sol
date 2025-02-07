@@ -81,11 +81,11 @@ contract Vesting4626 is Context, Ownable, ERC4626 {
     ) Ownable(owner_) ERC4626(token_) ERC20(name, symbol) {}
 
     /**
-     * @notice Calculate unvested investment amount for an account
+     * @notice Calculate investment amount for an account
      * @param account Target account address
      * @return Investment amount contributed by the account
      */
-    function investmentOfV2(address account) public view returns (uint256) {
+    function investmentOf(address account) public view returns (uint256) {
         return
             totalDeposit[account] -
             _convertToAssets(balanceOf(account), Math.Rounding.Floor);
