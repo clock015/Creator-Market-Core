@@ -9,6 +9,8 @@ This smart contract protocol builds a decentralized company model that allows fo
 
 ### 1. clone folder "contracts" to Remix
 
+any name and any symbol
+
 ### 2. deploy contract MyToken
 
 ### 3. deploy contract Vesting4626
